@@ -1,0 +1,55 @@
+author:
+  email: null
+  name: An Author
+  twitter: null
+  url: null
+baseurl: /readux-text-0211
+collections:
+  annotations:
+    output: true
+    permalink: /annotations/:path/
+  volume_pages:
+    output: true
+    permalink: /pages/:path/
+defaults:
+- scope:
+    path: ''
+    type: volume_pages
+  values:
+    deep_zoom: true
+    extra_js:
+    - volume-page.js
+    - hammer.min.js
+    - deepzoom.js
+    - openseadragon.min.js
+    layout: volume_page
+    short_label: p.
+- scope:
+    path: ''
+    type: annotations
+  values:
+    layout: annotation
+description: An annotated digital edition created with <a href="http://readux.library.emory.edu/">Readux</a>
+gems:
+- jekyll-sitemap
+homepage_image: https://iiif.archivelab.org/iiif/32862204.5243.emory.edu$0/full/full/0/default.jpg
+image_size:
+  page:
+    height: 3113
+    width: 3900
+permalink: pretty
+publication_info:
+  date: '2020'
+  editors: []
+  title: "Fouilles sur le Palatin dans les jardins farn\xE8ses appartenent a s.m.\
+    \ l'empereur Napol\xE9o"
+show_annotation_author: true
+source_info:
+  title: "Fouilles sur le Palatin dans les jardins farn\xE8ses appartenent a s.m.\
+    \ l'empereur Napol\xE9o"
+  via_readux: true
+tagline: an annotated digital edition
+title: "Fouilles sur le Palatin dans les jardins farn\xE8ses appartenent a s.m. l'empereur\
+  \ Napol\xE9o"
+url: https://saracarl.github.io
+version: 0.7

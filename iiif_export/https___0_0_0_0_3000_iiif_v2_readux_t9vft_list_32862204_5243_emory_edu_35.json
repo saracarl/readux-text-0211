@@ -1,0 +1,41 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://0.0.0.0:3000/iiif/v2/readux:t9vft/list/32862204.5243.emory.edu$35",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "f3685e5d-2cee-4912-b313-db348e5846ae",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "annotatedBy": {
+                "name": "OCR"
+            },
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/html",
+                "chars": "<span id='f3685e5d-2cee-4912-b313-db348e5846ae' data-letter-spacing='0.33242753623188404'>J~</span>",
+                "language": "en"
+            },
+            "on": {
+                "full": "https://0.0.0.0:3000/iiif/v2/readux:t9vft/canvas/32862204.5243.emory.edu$35",
+                "@type": "oa:SpecificResource",
+                "within": {
+                    "@id": "https://0.0.0.0:3000/iiif/v2/readux:t9vft/manifest",
+                    "@type": "sc:Manifest"
+                },
+                "selector": {
+                    "@type": "oa:FragmentSelector",
+                    "value": "xywh=3011,3807,69,37",
+                    "item": {
+                        "@type": "oa:FragmentSelector"
+                    }
+                }
+            },
+            "stylesheet": {
+                "type": "CssStylesheet",
+                "value": ".anno-f3685e5d-2cee-4912-b313-db348e5846ae: { height: 37px; width: 69px; font-size: 23.125px; }"
+            }
+        }
+    ]
+}

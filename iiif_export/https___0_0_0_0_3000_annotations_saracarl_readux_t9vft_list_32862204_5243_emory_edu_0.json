@@ -1,0 +1,77 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://0.0.0.0:3000/annotations/saracarl/readux:t9vft/list/32862204.5243.emory.edu$0",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "418c5d25-ccf8-4bd4-8054-f1d861a656f7",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "annotatedBy": {
+                "name": "saracarl"
+            },
+            "resource": {
+                "@type": "dctypes:Text",
+                "format": "text/html",
+                "chars": "<p>sara's fouilles annotation</p>",
+                "language": "en"
+            },
+            "on": {
+                "full": "https://0.0.0.0:3000/iiif/v2/readux:t9vft/canvas/32862204.5243.emory.edu$0",
+                "@type": "oa:SpecificResource",
+                "within": {
+                    "@id": "https://0.0.0.0:3000/iiif/v2/readux:t9vft/manifest",
+                    "@type": "sc:Manifest"
+                },
+                "selector": {
+                    "@type": "oa:FragmentSelector",
+                    "value": "xywh=964,951,1286,208",
+                    "item": {
+                        "@type": "oa:Choice",
+                        "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M964.08333,951.33333h642.875v0h642.875v103.91667v103.91667h-642.875h-642.875v-103.91667z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;newlyCreatedStrokeFactor&quot;:5,&quot;newlyCreated&quot;:true,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_77fb1da5-6460-4d07-ad09-e135651535b8\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"5\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>",
+                        "default": {
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=964,951,1286,208"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "dbba2e1b-f5a2-4aa0-b2b3-4caaf21f7771",
+            "@type": "oa:Annotation",
+            "motivation": "oa:commenting",
+            "annotatedBy": {
+                "name": "saracarl"
+            },
+            "resource": {
+                "@type": "dctypes:Text",
+                "format": "text/html",
+                "chars": "<p>A.S.M.</p>",
+                "language": "en"
+            },
+            "on": {
+                "full": "https://0.0.0.0:3000/iiif/v2/readux:t9vft/canvas/32862204.5243.emory.edu$0",
+                "@type": "oa:SpecificResource",
+                "within": {
+                    "@id": "https://0.0.0.0:3000/iiif/v2/readux:t9vft/manifest",
+                    "@type": "sc:Manifest"
+                },
+                "selector": {
+                    "@type": "oa:FragmentSelector",
+                    "value": "xywh=856,1607,327,137",
+                    "item": {
+                        "@type": "oa:Choice",
+                        "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M855.75,1606.75h163.5v0h163.5v68.70833v68.70833h-163.5h-163.5v-68.70833z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;newlyCreatedStrokeFactor&quot;:5,&quot;newlyCreated&quot;:true,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_65c96396-03ba-4bc6-b0ab-1c462cbd79d1\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"5\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>",
+                        "default": {
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=856,1607,327,137"
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}
