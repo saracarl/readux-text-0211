@@ -1,13 +1,7 @@
 ---
-formatting:
-  name: formatting
-image-annotation:
-  name: image-annotation
-test:
-  name: test
-ocr-correction:
-  name: ocr-correction
-whee:
-  name: whee!
-illustration:
-  name: illustration
+sara:
+  name: sara
+ben:
+  name: ben
+space here:
+  name: space here

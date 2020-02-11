@@ -44,7 +44,7 @@
         },
         {
             "label": "Export Date",
-            "value": "2020-02-11T14:41:04.596"
+            "value": "2020-02-11T18:59:51.165"
         }
     ],
     "description": "The online edition of this book in the public domain, i.e., not protected by copyright, has been produced by the Emory University Digital Library Publications Program. Manuscript, Archives, and Rare Book Library copy has stamp: Villa di Mondeggi, Conte della Gherardesca. Ill. are mounted photographs, probably made by John Henry Parker.",
@@ -163,6 +163,11 @@
                             "@id": "https://0.0.0.0:3000/iiif/v2/readux:t9vft/list/32862204.5243.emory.edu$1",
                             "@type": "sc:AnnotationList",
                             "label": "OCR Text"
+                        },
+                        {
+                            "label": "Annotations by saracarl",
+                            "@type": "sc:AnnotationList",
+                            "@id": "https://0.0.0.0:3000/annotations/saracarl/readux:t9vft/list/32862204.5243.emory.edu$1"
                         }
                     ]
                 },
